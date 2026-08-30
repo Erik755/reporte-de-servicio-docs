@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad - Reporte de Servicio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #070D14;
+            --card-bg: #0F1B2B;
+            --card-border: #1E3654;
+            --primary: #38BDF8;
+            --primary-glow: rgba(56, 189, 248, 0.2);
+            --text: #F1F5F9;
+            --text-muted: #94A3B8;
+            --accent: #22C55E;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(180deg, #102438 0%, #0B1522 100%);
+            border: 1px solid var(--card-border);
+            border-radius: 24px;
+            margin-bottom: 40px;
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
+        }
+
+        .badge {
+            display: inline-block;
+            background: rgba(56, 189, 248, 0.12);
+            color: var(--primary);
+            padding: 6px 16px;
+            border-radius: 999px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            margin-bottom: 16px;
+            border: 1px solid rgba(56, 189, 248, 0.3);
+        }
+
+        h1 {
+            font-size: 2.3rem;
+            font-weight: 800;
+            color: #FFFFFF;
+            margin-bottom: 10px;
+            letter-spacing: -0.5px;
+        }
+
+        .meta {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 18px;
+            padding: 32px;
+            margin-bottom: 28px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+        }
+
+        h2 {
+            font-size: 1.35rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        p {
+            color: #CBD5E1;
+            margin-bottom: 14px;
+            font-size: 1rem;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+            margin-bottom: 14px;
+        }
+
+        li {
+            position: relative;
+            padding-left: 28px;
+            margin-bottom: 12px;
+            color: #CBD5E1;
+        }
+
+        li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--accent);
+            font-weight: 800;
+        }
+
+        .highlight-box {
+            background: rgba(34, 197, 94, 0.08);
+            border-left: 4px solid var(--accent);
+            padding: 16px 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .footer {
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid var(--card-border);
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header class="header">
+        <div class="badge">POLÍTICA DE PRIVACIDAD OFICIAL</div>
+        <h1>Reporte de Servicio</h1>
+        <p class="meta"><strong>Identificador de paquete (Application ID):</strong> <code>com.reporteservicio.reporter</code></p>
+        <p class="meta"><strong>Última actualización:</strong> 29 de Agosto de 2026 | Versión 1.3.1</p>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>1. Compromiso de Privacidad y Arquitectura Offline</h2>
+            <p>La aplicación <strong>Reporte de Servicio</strong> ha sido diseñada con una arquitectura estricta de <strong>privacidad por diseño (Offline-First)</strong>. Nuestra máxima prioridad es proteger la confidencialidad de la información técnica y de servicio generada en campo por los técnicos, ingenieros y clientes.</p>
+            <div class="highlight-box">
+                <p><strong>🔒 Cero Recopilación Externa:</strong> Esta aplicación es 100% gratuita, no contiene anuncios publicitarios, no contiene compras integradas y <strong>no transmite ningún tipo de dato a servidores externos, plataformas de terceros ni servicios de analítica publicitaria</strong>. Toda la información permanece exclusivamente en el almacenamiento local del dispositivo del usuario.</p>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>2. Permisos del Dispositivo y su Finalidad Específica</h2>
+            <p>La aplicación solicita únicamente los permisos estrictamente necesarios para su funcionamiento operativo en campo:</p>
+            <ul>
+                <li><strong>Cámara (<code>android.permission.CAMERA</code>):</strong> Utilizada de manera puntual cuando el usuario decide fotografiar evidencias visuales de maquinaria, componentes y fallas técnicas para adjuntarlas a las actividades u oportunidades de mejora del reporte.</li>
+                <li><strong>Micrófono y Reconocimiento de Voz (<code>android.permission.RECORD_AUDIO</code>):</strong> Utilizado únicamente cuando el usuario activa la función de dictado por voz (<i>"🎙 Dictar"</i>) para transcribir descripciones técnicas, diagnóstico de causa raíz y acuerdos de manera rápida sin escribir manualmente. Los audios no se graban de forma continua ni se almacenan remotamente.</li>
+                <li><strong>Contactos (<code>android.permission.READ_CONTACTS</code>):</strong> Función totalmente opcional que permite al usuario importar datos de contacto (nombre, teléfono, empresa) para completar la ficha del cliente de forma rápida. Los datos se leen localmente y jamás se envían a ningún servidor.</li>
+                <li><strong>Almacenamiento y Archivos (<code>READ/WRITE_EXTERNAL_STORAGE</code>):</strong> Utilizado para guardar los reportes finales generados en formatos estándar de la industria (hojas de cálculo <strong>Excel .xlsx</strong> y documentos <strong>PDF .pdf</strong>) directamente en la carpeta pública de descargas del usuario (<code>Downloads/Reportes_Servicio</code>).</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>3. Tipos de Datos Procesados Localmente</h2>
+            <p>Durante el uso ordinario de la aplicación, se procesan de manera local los siguientes datos:</p>
+            <ul>
+                <li><strong>Datos Generales de Servicio:</strong> Nombre del técnico, fecha, nombre del cliente, tipo de servicio (Garantía, Orden de Servicio, PO Cliente), modelo y número de serie de la máquina, y número de folio.</li>
+                <li><strong>Contenido del Reporte:</strong> Lista de actividades ejecutadas, oportunidades de mejora, causas raíz diagnosticadas y futuros acuerdos comerciales/técnicos.</li>
+                <li><strong>Evidencias Fotográficas:</strong> Imágenes capturadas y editadas con anotaciones vectoriales (flechas, textos, rectángulos, círculos).</li>
+                <li><strong>Firmas Digitales:</strong> Trazos vectoriales de firma digital del técnico responsable y del cliente receptor para dar validez jurídica y de conformidad al servicio realizado.</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>4. Compartir Información a Voluntad del Usuario</h2>
+            <p>La aplicación no transfiere datos de manera automática. Los archivos PDF y Excel generados únicamente salen del dispositivo cuando el usuario presiona expresamente el botón <strong>"🚀 Compartir reporte"</strong> mediante el menú nativo de Android (enviar por correo electrónico, WhatsApp, almacenamiento en la nube del usuario, etc.).</p>
+        </section>
+
+        <section class="card">
+            <h2>5. Control, Retención y Eliminación de Datos</h2>
+            <p>El usuario tiene el control absoluto sobre sus datos:</p>
+            <ul>
+                <li><strong>Limpieza de Reportes:</strong> El botón <i>"🗑 Limpiar reporte"</i> borra inmediatamente los datos temporales del reporte en turno.</li>
+                <li><strong>Historial:</strong> Los reportes guardados en el historial pueden eliminarse individualmente en cualquier momento.</li>
+                <li><strong>Desinstalación:</strong> Al desinstalar la aplicación, todos los datos almacenados en la memoria privada de la aplicación se eliminan de forma definitiva del dispositivo.</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>6. Privacidad de Menores y Clasificación</h2>
+            <p>La aplicación está catalogada como herramienta de productividad y soporte técnico industrial, dirigida a profesionales mayores de 18 años. No recopila datos personales de menores de edad.</p>
+        </section>
+
+        <section class="card">
+            <h2>7. Contacto y Soporte del Desarrollador</h2>
+            <p>Para dudas, aclaraciones o soporte técnico sobre el uso de la aplicación o esta Política de Privacidad, puedes ponerte en contacto con el desarrollador:</p>
+            <p><strong>Desarrollador:</strong> Erik Sanchez<br>
+            <strong>Aplicación:</strong> Reporte de Servicio (Danobat / Servicio Técnico)<br>
+            <strong>Repositorio y Documentación:</strong> <a href="https://github.com/Erik755" target="_blank">github.com/Erik755</a></p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Reporte de Servicio. Todos los derechos reservados. Desarrollado bajo estándares de seguridad y privacidad móvil.</p>
+    </footer>
+</div>
+
+</body>
+</html>
