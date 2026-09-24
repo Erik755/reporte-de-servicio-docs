@@ -29,7 +29,7 @@
     <span class="badge">POLITICA DE PRIVACIDAD OFICIAL</span>
     <h1>Reporte Servicio Pro</h1>
     <p class="meta"><strong>Application ID:</strong> <code>com.reporteservicio.pro</code></p>
-    <p class="meta"><strong>Ultima actualizacion:</strong> 30 de agosto de 2026 · <strong>Version:</strong> 2.0.3</p>
+    <p class="meta"><strong>Ultima actualizacion:</strong> 23 de septiembre de 2026 · <strong>Version:</strong> 2.0.12</p>
   </header>
 
   <section class="card">
@@ -56,7 +56,7 @@
       <li>Firmas del tecnico y del cliente.</li>
       <li>Ubicacion GPS opcional, si el usuario decide agregarla al reporte.</li>
       <li>Archivos PDF y Excel generados por la app.</li>
-      <li>Informacion de compra o suscripcion procesada por Google Play Billing.</li>
+      <li>Estado de compra o suscripcion procesado por Google Play Billing y RevenueCat.</li>
     </ul>
     <p>La aplicacion no usa identificadores publicitarios, no muestra anuncios y no incluye un servidor propio del desarrollador para recibir reportes.</p>
   </section>
@@ -70,29 +70,35 @@
       <li>Completar datos de empresa, cliente y equipo en los documentos generados.</li>
       <li>Agregar evidencias fotograficas, anotaciones y firmas al reporte.</li>
       <li>Permitir que el usuario comparta o guarde reportes cuando lo solicita.</li>
-      <li>Verificar el estado de suscripcion mediante Google Play Billing.</li>
+      <li>Verificar el estado de suscripcion mediante Google Play Billing y RevenueCat.</li>
     </ul>
   </section>
 
   <section class="card">
     <h2>5. Almacenamiento y comparticion</h2>
-    <p>Los datos de trabajo se guardan localmente en el dispositivo. La app no comparte reportes automaticamente con el desarrollador.</p>
+    <p>Los datos de trabajo se guardan localmente en el espacio privado de la app. La app no crea respaldos automaticos de reportes, clientes o firmas en la carpeta Descargas, ni comparte reportes automaticamente con el desarrollador.</p>
     <p>Cuando el usuario usa funciones como compartir, enviar por correo, guardar en otra app o usar servicios de Android, los archivos pueden transmitirse a aplicaciones o proveedores elegidos por el propio usuario. A partir de ese momento, el tratamiento de esa copia tambien depende del servicio seleccionado por el usuario, por ejemplo correo, mensajeria, almacenamiento en la nube o Bluetooth.</p>
     <p>Las compras, suscripciones y prueba gratuita son procesadas por Google Play Billing conforme a las politicas de Google Play.</p>
   </section>
 
   <section class="card">
-    <h2>6. Permisos y funciones del dispositivo</h2>
+    <h2>6. Servicios de compra</h2>
+    <p>La app utiliza Google Play Billing y RevenueCat para ofrecer, procesar y validar la suscripcion. RevenueCat recibe un identificador tecnico de instalacion, el estado y los eventos de compra necesarios para validar el acceso Pro. La app no envia a RevenueCat el contenido de reportes, clientes, fotografias, firmas, nombre, correo o telefono capturados por el usuario.</p>
+    <p>Consulta tambien las politicas de <a href="https://policies.google.com/privacy">Google</a> y <a href="https://www.revenuecat.com/privacy">RevenueCat</a>.</p>
+  </section>
+
+  <section class="card">
+    <h2>7. Permisos y funciones del dispositivo</h2>
     <ul>
       <li><strong>Ubicacion:</strong> se usa de forma opcional para agregar coordenadas al reporte cuando el usuario lo solicita.</li>
-      <li><strong>Camara e imagenes:</strong> la app puede abrir la camara o selectores del sistema para que el usuario agregue evidencias fotograficas.</li>
-      <li><strong>Contactos:</strong> si el usuario decide importar un contacto, Android puede mostrar el selector del sistema y la app usa solo los datos seleccionados para llenar el cliente o responsable.</li>
+      <li><strong>Camara e imagenes:</strong> la app abre la camara o los selectores del sistema para que el usuario agregue evidencias fotograficas. No solicita acceso amplio a la biblioteca de imagenes.</li>
+      <li><strong>Contactos:</strong> si el usuario decide importar un contacto, Android muestra el selector del sistema y la app usa solo los datos seleccionados para llenar el cliente o responsable.</li>
       <li><strong>Compras de Google Play:</strong> se usa Google Play Billing para gestionar la suscripcion anual y la prueba gratuita.</li>
     </ul>
   </section>
 
   <section class="card">
-    <h2>7. Conservacion y eliminacion</h2>
+    <h2>8. Conservacion y eliminacion</h2>
     <ul>
       <li>El usuario puede limpiar el reporte actual desde la aplicacion.</li>
       <li>El usuario puede borrar reportes del historial dentro de la app.</li>
@@ -102,17 +108,17 @@
   </section>
 
   <section class="card">
-    <h2>8. Menores de edad</h2>
+    <h2>9. Menores de edad</h2>
     <p>Reporte Servicio Pro esta dirigida a tecnicos, emprendedores y empresas de servicio. No esta disenada ni dirigida especificamente a ninos.</p>
   </section>
 
   <section class="card">
-    <h2>9. Seguridad</h2>
-    <p>La aplicacion minimiza permisos y utiliza mecanismos estandar de Android para almacenamiento, seleccion de archivos, comparticion y servicios de Google Play. No vende datos personales ni utiliza publicidad personalizada.</p>
+    <h2>10. Seguridad</h2>
+    <p>La aplicacion minimiza permisos y utiliza mecanismos estandar de Android para almacenamiento, seleccion de archivos, comparticion y servicios de Google Play. Los datos privados se conservan en el espacio de la app y las comunicaciones de servicios de compra usan HTTPS. No vende datos personales ni utiliza publicidad personalizada.</p>
   </section>
 
   <section class="card">
-    <h2>10. Cambios a esta politica</h2>
+    <h2>11. Cambios a esta politica</h2>
     <p>Esta politica puede actualizarse para reflejar mejoras de la app, cambios legales o nuevos requisitos de Google Play. La version vigente estara disponible en esta pagina y vinculada desde la ficha de Google Play.</p>
   </section>
 
