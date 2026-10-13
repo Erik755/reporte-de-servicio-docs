@@ -13,7 +13,7 @@
       --panel-2: #ddefe6;
       --line: rgba(53, 107, 88, .22);
       --blue: #356b58;
-      --blue-2: #d97706;
+      --blue-2: #4f7868;
       --green: #356b58;
       --text: #1f1e1c;
       --muted: #625e57;
@@ -88,17 +88,21 @@
       min-height: 48px;
       padding: 0 20px;
       border-radius: 8px;
-      border: 1px solid rgba(53,107,88,.55);
-      background: rgba(139,203,177,.12);
-      color: var(--text);
+      border: 1px solid #5e806d;
+      background: #eff6f1;
+      color: #356b58;
       text-decoration: none;
       font-weight: 760;
     }
     .button.primary {
       background: var(--blue-2);
       border-color: var(--blue-2);
+      color: #fffdfa;
       box-shadow: 0 16px 42px rgba(53,107,88,.16);
     }
+    .button:hover { background: #e2eee7; }
+    .button.primary:hover { background: #426757; border-color: #426757; }
+    .button:focus-visible { outline-color: #356b58; }
     main { background: #f7f5f2; }
     .section {
       width: min(1180px, calc(100% - 40px));
